@@ -1,8 +1,31 @@
-[gd_scene load_steps=2 format=3 uid="uid://d2xh8xca2bs12"]
+[gd_scene load_steps=4 format=3 uid="uid://d2xh8xca2bs12"]
 
-[ext_resource type="Texture2D" uid="uid://do8ek6o821mc5" path="res://img/hex.png" id="1_rgguh"]
+[ext_resource type="Script" path="res://HexTile.cs" id="1_r0q1l"]
+[ext_resource type="Texture2D" uid="uid://w3vwf0pbm4pg" path="res://img/base.svg" id="2_awkuv"]
+[ext_resource type="Texture2D" uid="uid://ytt8plfqu64h" path="res://img/shaft.svg" id="2_jllv8"]
 
 [node name="Node2D" type="Node2D"]
+script = ExtResource("1_r0q1l")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("1_rgguh")
+[node name="base" type="Sprite2D" parent="."]
+texture = ExtResource("2_awkuv")
+
+[node name="shaft" type="Node2D" parent="."]
+
+[node name="preview" type="Sprite2D" parent="shaft"]
+visible = false
+modulate = Color(0.752941, 0.752941, 0.752941, 0.752941)
+texture = ExtResource("2_jllv8")
+
+[node name="real" type="Sprite2D" parent="shaft"]
+visible = false
+texture = ExtResource("2_jllv8")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D"]
+polygon = PackedVector2Array(0, -512, 443, -256, 443, 256, 0, 512, -443, 256, -443, -256)
+
+[connection signal="input_event" from="Area2D" to="." method="OnEvent"]
+[connection signal="mouse_entered" from="Area2D" to="." method="OnAreaEntered"]
+[connection signal="mouse_exited" from="Area2D" to="." method="OnAreaExited"]

@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://b0abe4awcf0s0"]
+
+[ext_resource type="PackedScene" uid="uid://brwqy6kgjkwfk" path="res://Main.tscn" id="1_0dm7k"]
+[ext_resource type="PackedScene" uid="uid://e2httjt3ngf4" path="res://ui.tscn" id="2_fqmmx"]
+
+[node name="Game" type="Node"]
+
+[node name="Main" parent="." instance=ExtResource("1_0dm7k")]
+
+[node name="UI" parent="." instance=ExtResource("2_fqmmx")]
+anchors_preset = -1
+anchor_left = -0.5
+anchor_top = -0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -0.919983
+offset_top = -0.0799561
+offset_right = -0.920105
