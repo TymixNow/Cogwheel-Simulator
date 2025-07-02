@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120mm"
+   height="120mm"
+   viewBox="0 0 120 120"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   sodipodi:docname="wood.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.3"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="249.96225"
+     inkscape:cy="245.0125"
+     inkscape:document-units="mm"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:window-width="3440"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1">
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="0"
+       originy="0"
+       spacingx="10"
+       spacingy="10"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="3"
+       enabled="true"
+       visible="true"
+       dotted="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="fill:#d8b13a;fill-rule:evenodd;stroke-width:0.264583"
+     d="m 30,60.000001 v -20 L 39.999999,30 H 59.999998 V 50 L 50,60.000001 Z"
+     id="path1" />
+  <path
+     style="fill:#a58010;fill-rule:evenodd;stroke-width:0.264583"
+     d="m 30,40.000001 9.999999,20 L 59.999998,50 50,30 Z"
+     id="path11" />
+  <path
+     style="fill:#d8b13a;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 39.999999,50 H 50 V 40.000001 H 39.999999 Z"
+     id="path12" />
+  <path
+     style="fill:#672802;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 30.000001,59.999999 70,89.999997 40,59.999999 Z"
+     id="path13" />
+  <path
+     style="fill:#95610a;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 50,60.000001 89.999999,80 79.999998,89.999999 Z"
+     id="path16" />
+  <path
+     style="fill:#814305;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 50,60.000001 59.999998,50 89.999999,80 Z"
+     id="path17" />
+  <path
+     style="fill:#a58010;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 59.999998,50 89.999999,80 V 69.999999 Z"
+     id="path18" />
+  <path
+     style="fill:#95610a;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 59.999998,50 V 40.000001 L 89.999999,69.999999 Z"
+     id="path19" />
+  <path
+     style="fill:#a58010;fill-rule:evenodd;stroke-width:0.264583"
+     d="M 59.999998,40.000001 V 30 l 30.000001,39.999999 z"
+     id="path22" />
+  <path
+     style="fill:#814305;fill-rule:evenodd;stroke-width:0.264583"
+     d="m 50,59.999998 19.999999,30.000001 -30,-30.000001 z"
+     id="path24" />
+  <path
+     style="fill:#672802;fill-rule:evenodd;stroke-width:0.264583"
+     d="m 50,59.999998 19.999999,30.000001 h 9.999999 z"
+     id="path25" />
+</svg>

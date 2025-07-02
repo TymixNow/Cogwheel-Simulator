@@ -1,0 +1,31 @@
+{
+	"Tools":
+	[
+		"remove1",
+		"wood",
+		"metal"
+	],
+	"Components":
+	{
+		"empty":[],
+		"axle":["axle"],
+		"small_disk":["axle","small_disk"],
+		"large_disk":["axle", "disk"],
+		"small_cogwheel":["axle", "small_disk", "small_teeth"],
+		"large_cogwheel":["axle", "disk", "teeth"]
+	},
+	"Recipes":
+	[
+		["empty", "wood","axle"],
+		["axle", "remove1", "empty"],
+		["axle", "wood", "small_disk"],
+		["small_disk", "remove1", "axle"],
+		["small_disk", "wood", "large_disk"],
+		["large_disk", "remove1", "small_disk"],
+		["small_disk", "metal", "small_cogwheel"],
+		["small_cogwheel", "remove1", "small_disk"],
+		["large_disk", "metal", "large_cogwheel"],
+		["large_cogwheel", "remove1", "large_disk"]
+	],
+	"Root" : "empty"
+}

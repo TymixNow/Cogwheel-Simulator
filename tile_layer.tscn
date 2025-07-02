@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://dubepvuarsf2k"]
+
+[ext_resource type="Script" uid="uid://bmbbmev8xjx0v" path="res://scripts/TileLayer.cs" id="1_5shkm"]
+
+[node name="TileLayer" type="Node2D"]
+script = ExtResource("1_5shkm")
+
+[node name="add" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(0.752941, 0.752941, 0.815686, 0.752941)
+
+[node name="keep" type="Sprite2D" parent="."]
+visible = false
+
+[node name="remove" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(0.752941, 0, 0, 0.752941)

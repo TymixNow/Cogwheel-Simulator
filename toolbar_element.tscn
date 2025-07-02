@@ -1,0 +1,33 @@
+[gd_scene load_steps=4 format=3 uid="uid://csih5i0v0fnmi"]
+
+[ext_resource type="Texture2D" uid="uid://brkeddg5lffs5" path="res://textures/toolbar.svg" id="1_gpgg3"]
+[ext_resource type="Texture2D" uid="uid://dnp5stfxje0nu" path="res://textures/toolbar-selector.svg" id="2_5cbk0"]
+[ext_resource type="Script" uid="uid://c0x506d54mm3c" path="res://scripts/GUI/ToolbarElement.cs" id="2_8sbd1"]
+
+[node name="ToolbarElement" type="TextureRect"]
+size_flags_horizontal = 3
+texture = ExtResource("1_gpgg3")
+expand_mode = 5
+stretch_mode = 5
+script = ExtResource("2_8sbd1")
+
+[node name="ToolTexture" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 5
+stretch_mode = 5
+
+[node name="ToolbarSelector" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_5cbk0")
+expand_mode = 5
+stretch_mode = 5
