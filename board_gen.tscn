@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxwcduwg8u0hw"]
+
+[ext_resource type="Script" path="res://GenerateBoard.cs" id="1_gipne"]
+
+[node name="BoardGen" type="Node2D"]
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_gipne")
